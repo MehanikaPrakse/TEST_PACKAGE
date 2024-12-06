@@ -1,0 +1,36 @@
+﻿{
+  "InstanceGuid": "39bc7c80-b6b3-4561-bc5c-88bc871c9eec",
+  "Name": null,
+  "Guid": "dd9cd61e-7fbb-4785-87aa-0e774d93878e",
+  "Description": null,
+  "Metadata": {
+    "Versions": "[\"2.8.2.0\"]"
+  },
+  "Resources": [
+    {
+      "Location": "FirmwareDeviceFile.xml",
+      "Description": null,
+      "OwnerGuid": "39bc7c80-b6b3-4561-bc5c-88bc871c9eec",
+      "Metadata": {}
+    },
+    {
+      "Location": "DeviceParameters.csv",
+      "Description": null,
+      "OwnerGuid": "39bc7c80-b6b3-4561-bc5c-88bc871c9eec",
+      "Metadata": {}
+    },
+    {
+      "Location": "InternalParameters.csv",
+      "Description": null,
+      "OwnerGuid": "39bc7c80-b6b3-4561-bc5c-88bc871c9eec",
+      "Metadata": {}
+    },
+    {
+      "Location": "watchlist.json",
+      "Description": null,
+      "OwnerGuid": "39bc7c80-b6b3-4561-bc5c-88bc871c9eec",
+      "Metadata": {}
+    }
+  ],
+  "FormatVersion": "0.02"
+}

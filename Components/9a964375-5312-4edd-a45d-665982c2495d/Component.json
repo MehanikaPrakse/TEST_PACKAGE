@@ -1,0 +1,30 @@
+﻿{
+  "InstanceGuid": "9a964375-5312-4edd-a45d-665982c2495d",
+  "Name": null,
+  "Guid": "3ad7885c-30d9-4dce-af6b-77b14245f962",
+  "Description": null,
+  "Metadata": {
+    "Versions": "[\"2.5.0.46\"]"
+  },
+  "Resources": [
+    {
+      "Location": "CpxConfiguration",
+      "Description": null,
+      "OwnerGuid": "9a964375-5312-4edd-a45d-665982c2495d",
+      "Metadata": {}
+    },
+    {
+      "Location": "PluginData",
+      "Description": null,
+      "OwnerGuid": "9a964375-5312-4edd-a45d-665982c2495d",
+      "Metadata": {}
+    },
+    {
+      "Location": "CpxCodesysSettings",
+      "Description": null,
+      "OwnerGuid": "9a964375-5312-4edd-a45d-665982c2495d",
+      "Metadata": {}
+    }
+  ],
+  "FormatVersion": "0.02"
+}

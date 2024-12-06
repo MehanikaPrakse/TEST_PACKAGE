@@ -1,0 +1,47 @@
+﻿{
+  "Name": "20206303-8c2b-4f75-bdc2-781dad5c4f6c",
+  "Guid": "c9655c1b-8870-45ea-9e4d-b2da706a4bff",
+  "Description": null,
+  "Metadata": {
+    "Versions": "[\"2.8.0.138\",\"2.9.0.83\"]"
+  },
+  "Resources": [
+    {
+      "Location": "testplc-AllUsers.opt",
+      "Description": null,
+      "OwnerGuid": "c9655c1b-8870-45ea-9e4d-b2da706a4bff",
+      "Metadata": {}
+    },
+    {
+      "Location": "testplc-smoup-DESKTOP-G628DKS.opt",
+      "Description": null,
+      "OwnerGuid": "c9655c1b-8870-45ea-9e4d-b2da706a4bff",
+      "Metadata": {}
+    },
+    {
+      "Location": "testplc.project",
+      "Description": null,
+      "OwnerGuid": "c9655c1b-8870-45ea-9e4d-b2da706a4bff",
+      "Metadata": {}
+    },
+    {
+      "Location": "testplc_project.precompilecache",
+      "Description": null,
+      "OwnerGuid": "c9655c1b-8870-45ea-9e4d-b2da706a4bff",
+      "Metadata": {}
+    },
+    {
+      "Location": "TypeDisplayNameOverrides.json",
+      "Description": null,
+      "OwnerGuid": "c9655c1b-8870-45ea-9e4d-b2da706a4bff",
+      "Metadata": {}
+    },
+    {
+      "Location": "DisabledObjectCommands.json",
+      "Description": null,
+      "OwnerGuid": "c9655c1b-8870-45ea-9e4d-b2da706a4bff",
+      "Metadata": {}
+    }
+  ],
+  "FormatVersion": "0.01"
+}
