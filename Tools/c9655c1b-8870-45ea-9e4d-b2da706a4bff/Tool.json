@@ -41,6 +41,12 @@
       "Description": null,
       "OwnerGuid": "c9655c1b-8870-45ea-9e4d-b2da706a4bff",
       "Metadata": {}
+    },
+    {
+      "Location": "testplc-maxsa-DESKTOP-BIGBOSS.opt",
+      "Description": null,
+      "OwnerGuid": "c9655c1b-8870-45ea-9e4d-b2da706a4bff",
+      "Metadata": {}
     }
   ],
   "FormatVersion": "0.01"

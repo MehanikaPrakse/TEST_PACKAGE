@@ -1,20 +1,20 @@
 {
-  "$id": "222",
+  "$id": "89",
   "Id": "dc9edaae-7986-429c-92a3-b1e7d40b78e5",
   "StorageType": "ToolSuiteProject",
   "StorageVersion": "V2.0",
   "ComponentGraph": {
-    "$id": "223",
+    "$id": "90",
     "Id": "29d56e13-64d5-4f14-9a85-79530fccbe48",
     "Components": [
       {
-        "$id": "224",
+        "$id": "91",
         "Id": "9a964375-5312-4edd-a45d-665982c2495d",
         "Name": "PLC - CPX-E-CEC-M1",
         "ToolGuid": "3ad7885c-30d9-4dce-af6b-77b14245f962",
         "ImageKey": "5266781",
         "ConnectionString": {
-          "$id": "225",
+          "$id": "92",
           "Name": "Eth0",
           "Type": "IPv4",
           "Value": "192.168.23.1",
@@ -24,7 +24,7 @@
         "CatalogPath": "CPX-E-CEC-M1",
         "EngineeringProductCatalog": [
           {
-            "$id": "226",
+            "$id": "93",
             "Id": "b29ca73e-b886-4928-a4ba-051304fcfa00",
             "IconMarkup": "<?xml version='1.0' encoding='UTF-8'?><Canvas Tag=\"CPX-E-CEC_Basic\" Width=\"42\" Height=\"121\" xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\" xmlns:attachedProperties=\"clr-namespace:Festo.Suite.Design.AttachedProperties;assembly=Festo.Suite.Design\" VerticalAlignment=\"Top\"><Canvas Tag=\"CPX-E Compact Master\" IsHitTestVisible=\"False\"><Canvas Tag=\"Body\"><Rectangle Tag=\"Base\" Width=\"42\" Height=\"121\" Fill=\"#FFF2F3F5\" Canvas.Left=\"0\" Canvas.Top=\"0\" /><Rectangle Tag=\"Right_Bottom\" Width=\"20\" Height=\"7\" Fill=\"#FFE5E8EB\" Canvas.Left=\"22\" Canvas.Top=\"114\" /><Rectangle Tag=\"Right\" Width=\"20\" Height=\"112\" Fill=\"#FFE5E8EB\" Canvas.Left=\"22\" Canvas.Top=\"0\" /><Rectangle Tag=\"Left_Bottom\" Width=\"20\" Height=\"7\" Fill=\"#FFE5E8EB\" Canvas.Left=\"0\" Canvas.Top=\"114\" /><Rectangle Tag=\"Left\" Width=\"20\" Height=\"112\" Fill=\"#FFE5E8EB\" Canvas.Left=\"0\" Canvas.Top=\"0\" /><Canvas Tag=\"Festo Logo\"><Path Tag=\"F\" Fill=\"#FF0091DC\" Canvas.Left=\"29\" Canvas.Top=\"2.336\"><Path.Data><PathGeometry Figures=\"M.057 1.453A.053.053 0 0 1 0 1.4V.049A.053.053 0 0 1 .057 0H1.65a.053.053 0 0 1 .057.049V.242A.053.053 0 0 1 1.65.291H.512A.053.053 0 0 0 .455.339V.533A.053.053 0 0 0 .512.581H1.537A.053.053 0 0 1 1.594.63V.824a.053.053 0 0 1-.057.048H.512A.054.054 0 0 0 .455.92V1.4A.053.053 0 0 1 .4 1.453Z\" /></Path.Data></Path><Path Tag=\"E\" Fill=\"#FF0091DC\" Canvas.Left=\"30.821\" Canvas.Top=\"2.336\"><Path.Data><PathGeometry Figures=\"M0 .049A.053.053 0 0 1 .057 0H1.764a.053.053 0 0 1 .057.049V.242a.053.053 0 0 1-.057.048H.512A.053.053 0 0 0 .455.339V.533A.053.053 0 0 0 .512.581H1.65A.053.053 0 0 1 1.707.63V.824A.053.053 0 0 1 1.65.872H.512A.053.053 0 0 0 .455.92v.193a.053.053 0 0 0 .057.049H1.764a.053.053 0 0 1 .057.048V1.4a.053.053 0 0 1-.057.049H.057A.053.053 0 0 1 0 1.4Z\" /></Path.Data></Path><Path Tag=\"S\" Fill=\"#FF0091DC\" Canvas.Left=\"32.756\" Canvas.Top=\"2.336\"><Path.Data><PathGeometry Figures=\"M0 .581a.319.319 0 0 0 .341.29h.911a.106.106 0 0 1 .114.1v.1a.106.106 0 0 1-.114.1H.512a.053.053 0 0 1-.057-.049A.053.053 0 0 0 .4 1.065H.057A.053.053 0 0 0 0 1.114v.049a.319.319 0 0 0 .341.291H1.48a.319.319 0 0 0 .341-.291V.872A.319.319 0 0 0 1.48.581H.569a.106.106 0 0 1-.114-.1v-.1a.106.106 0 0 1 .114-.1h.74a.053.053 0 0 1 .057.048.053.053 0 0 0 .057.048h.342A.053.053 0 0 0 1.821.339V.291A.319.319 0 0 0 1.48 0H.341A.319.319 0 0 0 0 .291Z\" /></Path.Data></Path><Path Tag=\"T\" Fill=\"#FF0091DC\" Canvas.Left=\"34.691\" Canvas.Top=\"2.336\"><Path.Data><PathGeometry Figures=\"M0 .049A.053.053 0 0 1 .057 0H1.764a.053.053 0 0 1 .057.049V.242a.053.053 0 0 1-.057.048H1.2a.053.053 0 0 0-.057.048V1.4a.053.053 0 0 1-.057.049H.74A.053.053 0 0 1 .683 1.4V.339A.053.053 0 0 0 .626.291H.057A.053.053 0 0 1 0 .242V.049Z\" /></Path.Data></Path><Path Tag=\"O\" Fill=\"#FF0091DC\" Canvas.Left=\"36.653999999999996\" Canvas.Top=\"2.336\"><Path.Data><PathGeometry Figures=\"M1.457 1.457H.336a.378.378 0 0 1-.131-.023A.342.342 0 0 1 .1 1.372a.292.292 0 0 1-.072-.093A.257.257 0 0 1 0 1.166V.292A.257.257 0 0 1 .026.178.292.292 0 0 1 .1.085.342.342 0 0 1 .205.023.377.377 0 0 1 .336 0H1.457a.378.378 0 0 1 .131.023.341.341 0 0 1 .107.063.292.292 0 0 1 .072.093.257.257 0 0 1 .026.113v.874a.257.257 0 0 1-.026.113.291.291 0 0 1-.072.093.341.341 0 0 1-.107.062A.379.379 0 0 1 1.457 1.457ZM.56.292A.121.121 0 0 0 .481.32.09.09 0 0 0 .448.389v.68a.091.091 0 0 0 .033.069.121.121 0 0 0 .079.028h.672a.121.121 0 0 0 .079-.028.091.091 0 0 0 .033-.069V.389A.09.09 0 0 0 1.312.32.121.121 0 0 0 1.232.292Z\" /></Path.Data></Path></Canvas></Canvas><Canvas Tag=\"Auxiliary Interfaces\"><Rectangle Tag=\"XF1\" Width=\"12.0\" Height=\"12.0\" Fill=\"#FFB6BEC6\" Stroke=\"#FFB6BEC6\" StrokeThickness=\"2\" Canvas.Left=\"4.0\" Canvas.Top=\"23.0\" /></Canvas></Canvas><Canvas Tag=\"Connectors\"><Canvas Tag=\"EC\" attachedProperties:SuiteProps.ConnectorName=\"EC\" attachedProperties:SuiteProps.TranslateTransformX=\"4.000000000000003\" attachedProperties:SuiteProps.TranslateTransformY=\"55.0\" attachedProperties:SuiteProps.ConnectorOutDirection=\"Down\" attachedProperties:SuiteProps.UIType=\"RJ45\"><Canvas Tag=\"Down\"><Rectangle Tag=\"RJ45\" Width=\"12.0\" Height=\"12.0\" Fill=\"#FFFFD600\" Stroke=\"#FFFFD600\" StrokeThickness=\"2\" Canvas.Left=\"4.000000000000003\" Canvas.Top=\"55.0\" /></Canvas></Canvas></Canvas><Rectangle Tag=\"CodesysFieldbusMasterStatusIconPlaceHolder\" Width=\"20\" Height=\"20\" Canvas.Left=\"16\" Canvas.Top=\"51\" IsHitTestVisible=\"False\" attachedProperties:SuiteProps.TranslateTransformX=\"16\" attachedProperties:SuiteProps.TranslateTransformY=\"51\" attachedProperties:SuiteProps.IsCodesysFieldbusMasterStatusIconPlaceHolder=\"True\" /><Rectangle Tag=\"CodesysDeviceStatusIconPlaceHolder\" Width=\"20\" Height=\"20\" Canvas.Left=\"22\" Canvas.Top=\"0\" IsHitTestVisible=\"False\" attachedProperties:SuiteProps.TranslateTransformX=\"22\" attachedProperties:SuiteProps.TranslateTransformY=\"0\" attachedProperties:SuiteProps.IsCodesysDeviceStatusIconPlaceHolder=\"True\" /></Canvas>",
             "Vendor": "Festo",
@@ -32,7 +32,7 @@
             "PartNumber": "5266781",
             "Connectors": [
               {
-                "$id": "227",
+                "$id": "94",
                 "Id": "a0f36474-ed87-485b-9947-19624eccfea1",
                 "Name": "EC",
                 "ToolTip": "EC (EtherCAT Out)",
@@ -56,7 +56,7 @@
             ]
           },
           {
-            "$id": "228",
+            "$id": "95",
             "Id": "d611b9ca-18cd-4079-b19e-33ea692b6e13",
             "IconMarkup": "<?xml version='1.0' encoding='UTF-8'?><Canvas Tag=\"CPX-E-8DO\" Width=\"22\" Height=\"121\" xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\" xmlns:attachedProperties=\"clr-namespace:Festo.Suite.Design.AttachedProperties;assembly=Festo.Suite.Design\" VerticalAlignment=\"Top\"><Canvas Tag=\"Base\" IsHitTestVisible=\"False\"><Canvas Tag=\"Spacer\"><Rectangle Tag=\"Spacer-2\" Width=\"2\" Height=\"121\" Canvas.Left=\"0\" Canvas.Top=\"0\" /></Canvas><Rectangle Tag=\"Base-2\" Width=\"20\" Height=\"121\" Fill=\"#FFF2F3F5\" Canvas.Left=\"2\" Canvas.Top=\"0\" /><Rectangle Tag=\"Middle\" Width=\"20\" Height=\"89\" Fill=\"#FFE5E8EB\" Canvas.Left=\"2\" Canvas.Top=\"23\" /><Rectangle Tag=\"Top\" Width=\"20\" Height=\"21\" Fill=\"#FFE5E8EB\" Canvas.Left=\"2\" Canvas.Top=\"0\" /><Rectangle Tag=\"Bottom\" Width=\"20\" Height=\"7\" Fill=\"#FFE5E8EB\" Canvas.Left=\"2\" Canvas.Top=\"114\" /></Canvas><Canvas Tag=\"I/O Connectors\" IsHitTestVisible=\"False\"><Canvas Tag=\"Lower\"><Rectangle Tag=\"Right\" Width=\"5\" Height=\"10\" Fill=\"#FFB6BEC6\" Canvas.Left=\"13\" Canvas.Top=\"100.0\" /><Rectangle Tag=\"Left\" Width=\"5\" Height=\"10\" Fill=\"#FFB6BEC6\" Canvas.Left=\"6\" Canvas.Top=\"100.0\" /></Canvas><Canvas Tag=\"Upper\"><Rectangle Tag=\"Right-2\" Width=\"5\" Height=\"41\" Fill=\"#FFB6BEC6\" Canvas.Left=\"13\" Canvas.Top=\"25\" /><Rectangle Tag=\"Left-2\" Width=\"5\" Height=\"41\" Fill=\"#FFB6BEC6\" Canvas.Left=\"6\" Canvas.Top=\"25\" /></Canvas></Canvas><Rectangle Tag=\"LEDs\" Width=\"6\" Height=\"15\" Fill=\"#FFB6BEC6\" Canvas.Left=\"6\" Canvas.Top=\"4\" IsHitTestVisible=\"False\" /><Rectangle Tag=\"LEDs-2\" Width=\"6\" Height=\"10\" Fill=\"#FFB6BEC6\" Canvas.Left=\"12\" Canvas.Top=\"9\" IsHitTestVisible=\"False\" /></Canvas>",
             "Vendor": "Festo",
@@ -64,7 +64,7 @@
             "PartNumber": "4080491"
           },
           {
-            "$id": "229",
+            "$id": "96",
             "Id": "0c7f8718-2a23-494c-b14f-293f66f16fcb",
             "IconMarkup": "<?xml version='1.0' encoding='UTF-8'?><Canvas Tag=\"CPX-E-16DI\" Width=\"22\" Height=\"121\" xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\" xmlns:attachedProperties=\"clr-namespace:Festo.Suite.Design.AttachedProperties;assembly=Festo.Suite.Design\" VerticalAlignment=\"Top\"><Canvas Tag=\"Base\" IsHitTestVisible=\"False\"><Canvas Tag=\"Spacer\"><Rectangle Tag=\"Spacer-2\" Width=\"2\" Height=\"121\" Canvas.Left=\"0\" Canvas.Top=\"0\" /></Canvas><Rectangle Tag=\"Base-2\" Width=\"20\" Height=\"121\" Fill=\"#FFF2F3F5\" Canvas.Left=\"2\" Canvas.Top=\"0\" /><Rectangle Tag=\"Middle\" Width=\"20\" Height=\"89\" Fill=\"#FFE5E8EB\" Canvas.Left=\"2\" Canvas.Top=\"23\" /><Rectangle Tag=\"Top\" Width=\"20\" Height=\"21\" Fill=\"#FFE5E8EB\" Canvas.Left=\"2\" Canvas.Top=\"0\" /><Rectangle Tag=\"Bottom\" Width=\"20\" Height=\"7\" Fill=\"#FFE5E8EB\" Canvas.Left=\"2\" Canvas.Top=\"114\" /></Canvas><Canvas Tag=\"I/O Connectors\" IsHitTestVisible=\"False\"><Rectangle Tag=\"Right\" Width=\"5\" Height=\"85\" Fill=\"#FFB6BEC6\" Canvas.Left=\"13\" Canvas.Top=\"25\" /><Rectangle Tag=\"Left\" Width=\"5\" Height=\"85\" Fill=\"#FFB6BEC6\" Canvas.Left=\"6\" Canvas.Top=\"25\" /></Canvas><Rectangle Tag=\"LEDs\" Width=\"6\" Height=\"15\" Fill=\"#FFB6BEC6\" Canvas.Left=\"6\" Canvas.Top=\"4\" IsHitTestVisible=\"False\" /><Rectangle Tag=\"LEDs-2\" Width=\"6\" Height=\"10\" Fill=\"#FFB6BEC6\" Canvas.Left=\"12\" Canvas.Top=\"9\" IsHitTestVisible=\"False\" /></Canvas>",
             "Vendor": "Festo",
@@ -74,16 +74,16 @@
         ],
         "EngineeringComponents": [
           {
-            "$id": "230",
+            "$id": "97",
             "Id": "cd8a916a-211b-4ae0-9d88-64c9d767aa97",
             "Name": "CPX-E-CEC-M1",
             "IconMarkup": "<?xml version='1.0' encoding='UTF-8'?><Canvas Tag=\"CPX-E-CEC_Basic\" Width=\"42\" Height=\"121\" xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\" xmlns:attachedProperties=\"clr-namespace:Festo.Suite.Design.AttachedProperties;assembly=Festo.Suite.Design\" VerticalAlignment=\"Top\"><Canvas Tag=\"CPX-E Compact Master\" IsHitTestVisible=\"False\"><Canvas Tag=\"Body\"><Rectangle Tag=\"Base\" Width=\"42\" Height=\"121\" Fill=\"#FFF2F3F5\" Canvas.Left=\"0\" Canvas.Top=\"0\" /><Rectangle Tag=\"Right_Bottom\" Width=\"20\" Height=\"7\" Fill=\"#FFE5E8EB\" Canvas.Left=\"22\" Canvas.Top=\"114\" /><Rectangle Tag=\"Right\" Width=\"20\" Height=\"112\" Fill=\"#FFE5E8EB\" Canvas.Left=\"22\" Canvas.Top=\"0\" /><Rectangle Tag=\"Left_Bottom\" Width=\"20\" Height=\"7\" Fill=\"#FFE5E8EB\" Canvas.Left=\"0\" Canvas.Top=\"114\" /><Rectangle Tag=\"Left\" Width=\"20\" Height=\"112\" Fill=\"#FFE5E8EB\" Canvas.Left=\"0\" Canvas.Top=\"0\" /><Canvas Tag=\"Festo Logo\"><Path Tag=\"F\" Fill=\"#FF0091DC\" Canvas.Left=\"29\" Canvas.Top=\"2.336\"><Path.Data><PathGeometry Figures=\"M.057 1.453A.053.053 0 0 1 0 1.4V.049A.053.053 0 0 1 .057 0H1.65a.053.053 0 0 1 .057.049V.242A.053.053 0 0 1 1.65.291H.512A.053.053 0 0 0 .455.339V.533A.053.053 0 0 0 .512.581H1.537A.053.053 0 0 1 1.594.63V.824a.053.053 0 0 1-.057.048H.512A.054.054 0 0 0 .455.92V1.4A.053.053 0 0 1 .4 1.453Z\" /></Path.Data></Path><Path Tag=\"E\" Fill=\"#FF0091DC\" Canvas.Left=\"30.821\" Canvas.Top=\"2.336\"><Path.Data><PathGeometry Figures=\"M0 .049A.053.053 0 0 1 .057 0H1.764a.053.053 0 0 1 .057.049V.242a.053.053 0 0 1-.057.048H.512A.053.053 0 0 0 .455.339V.533A.053.053 0 0 0 .512.581H1.65A.053.053 0 0 1 1.707.63V.824A.053.053 0 0 1 1.65.872H.512A.053.053 0 0 0 .455.92v.193a.053.053 0 0 0 .057.049H1.764a.053.053 0 0 1 .057.048V1.4a.053.053 0 0 1-.057.049H.057A.053.053 0 0 1 0 1.4Z\" /></Path.Data></Path><Path Tag=\"S\" Fill=\"#FF0091DC\" Canvas.Left=\"32.756\" Canvas.Top=\"2.336\"><Path.Data><PathGeometry Figures=\"M0 .581a.319.319 0 0 0 .341.29h.911a.106.106 0 0 1 .114.1v.1a.106.106 0 0 1-.114.1H.512a.053.053 0 0 1-.057-.049A.053.053 0 0 0 .4 1.065H.057A.053.053 0 0 0 0 1.114v.049a.319.319 0 0 0 .341.291H1.48a.319.319 0 0 0 .341-.291V.872A.319.319 0 0 0 1.48.581H.569a.106.106 0 0 1-.114-.1v-.1a.106.106 0 0 1 .114-.1h.74a.053.053 0 0 1 .057.048.053.053 0 0 0 .057.048h.342A.053.053 0 0 0 1.821.339V.291A.319.319 0 0 0 1.48 0H.341A.319.319 0 0 0 0 .291Z\" /></Path.Data></Path><Path Tag=\"T\" Fill=\"#FF0091DC\" Canvas.Left=\"34.691\" Canvas.Top=\"2.336\"><Path.Data><PathGeometry Figures=\"M0 .049A.053.053 0 0 1 .057 0H1.764a.053.053 0 0 1 .057.049V.242a.053.053 0 0 1-.057.048H1.2a.053.053 0 0 0-.057.048V1.4a.053.053 0 0 1-.057.049H.74A.053.053 0 0 1 .683 1.4V.339A.053.053 0 0 0 .626.291H.057A.053.053 0 0 1 0 .242V.049Z\" /></Path.Data></Path><Path Tag=\"O\" Fill=\"#FF0091DC\" Canvas.Left=\"36.653999999999996\" Canvas.Top=\"2.336\"><Path.Data><PathGeometry Figures=\"M1.457 1.457H.336a.378.378 0 0 1-.131-.023A.342.342 0 0 1 .1 1.372a.292.292 0 0 1-.072-.093A.257.257 0 0 1 0 1.166V.292A.257.257 0 0 1 .026.178.292.292 0 0 1 .1.085.342.342 0 0 1 .205.023.377.377 0 0 1 .336 0H1.457a.378.378 0 0 1 .131.023.341.341 0 0 1 .107.063.292.292 0 0 1 .072.093.257.257 0 0 1 .026.113v.874a.257.257 0 0 1-.026.113.291.291 0 0 1-.072.093.341.341 0 0 1-.107.062A.379.379 0 0 1 1.457 1.457ZM.56.292A.121.121 0 0 0 .481.32.09.09 0 0 0 .448.389v.68a.091.091 0 0 0 .033.069.121.121 0 0 0 .079.028h.672a.121.121 0 0 0 .079-.028.091.091 0 0 0 .033-.069V.389A.09.09 0 0 0 1.312.32.121.121 0 0 0 1.232.292Z\" /></Path.Data></Path></Canvas></Canvas><Canvas Tag=\"Auxiliary Interfaces\"><Rectangle Tag=\"XF1\" Width=\"12.0\" Height=\"12.0\" Fill=\"#FFB6BEC6\" Stroke=\"#FFB6BEC6\" StrokeThickness=\"2\" Canvas.Left=\"4.0\" Canvas.Top=\"23.0\" /></Canvas></Canvas><Canvas Tag=\"Connectors\"><Canvas Tag=\"EC\" attachedProperties:SuiteProps.ConnectorName=\"EC\" attachedProperties:SuiteProps.TranslateTransformX=\"4.000000000000003\" attachedProperties:SuiteProps.TranslateTransformY=\"55.0\" attachedProperties:SuiteProps.ConnectorOutDirection=\"Down\" attachedProperties:SuiteProps.UIType=\"RJ45\"><Canvas Tag=\"Down\"><Rectangle Tag=\"RJ45\" Width=\"12.0\" Height=\"12.0\" Fill=\"#FFFFD600\" Stroke=\"#FFFFD600\" StrokeThickness=\"2\" Canvas.Left=\"4.000000000000003\" Canvas.Top=\"55.0\" /></Canvas></Canvas></Canvas><Rectangle Tag=\"CodesysFieldbusMasterStatusIconPlaceHolder\" Width=\"20\" Height=\"20\" Canvas.Left=\"16\" Canvas.Top=\"51\" IsHitTestVisible=\"False\" attachedProperties:SuiteProps.TranslateTransformX=\"16\" attachedProperties:SuiteProps.TranslateTransformY=\"51\" attachedProperties:SuiteProps.IsCodesysFieldbusMasterStatusIconPlaceHolder=\"True\" /><Rectangle Tag=\"CodesysDeviceStatusIconPlaceHolder\" Width=\"20\" Height=\"20\" Canvas.Left=\"22\" Canvas.Top=\"0\" IsHitTestVisible=\"False\" attachedProperties:SuiteProps.TranslateTransformX=\"22\" attachedProperties:SuiteProps.TranslateTransformY=\"0\" attachedProperties:SuiteProps.IsCodesysDeviceStatusIconPlaceHolder=\"True\" /></Canvas>",
             "Product": {
-              "$ref": "226"
+              "$ref": "93"
             },
             "Connectors": [
               {
-                "$id": "231",
+                "$id": "98",
                 "Id": "de5665af-0110-4dbb-ba6f-a1373980819b",
                 "Name": "EC",
                 "ToolTip": "EC (EtherCAT Out)",
@@ -117,26 +117,26 @@
             ]
           },
           {
-            "$id": "232",
+            "$id": "99",
             "Id": "25e0cfe9-c124-4abf-b371-6dea13945bca",
             "Name": "CPX-E-8DO",
             "IconMarkup": "<?xml version='1.0' encoding='UTF-8'?><Canvas Tag=\"CPX-E-8DO\" Width=\"22\" Height=\"121\" xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\" xmlns:attachedProperties=\"clr-namespace:Festo.Suite.Design.AttachedProperties;assembly=Festo.Suite.Design\" VerticalAlignment=\"Top\"><Canvas Tag=\"Base\" IsHitTestVisible=\"False\"><Canvas Tag=\"Spacer\"><Rectangle Tag=\"Spacer-2\" Width=\"2\" Height=\"121\" Canvas.Left=\"0\" Canvas.Top=\"0\" /></Canvas><Rectangle Tag=\"Base-2\" Width=\"20\" Height=\"121\" Fill=\"#FFF2F3F5\" Canvas.Left=\"2\" Canvas.Top=\"0\" /><Rectangle Tag=\"Middle\" Width=\"20\" Height=\"89\" Fill=\"#FFE5E8EB\" Canvas.Left=\"2\" Canvas.Top=\"23\" /><Rectangle Tag=\"Top\" Width=\"20\" Height=\"21\" Fill=\"#FFE5E8EB\" Canvas.Left=\"2\" Canvas.Top=\"0\" /><Rectangle Tag=\"Bottom\" Width=\"20\" Height=\"7\" Fill=\"#FFE5E8EB\" Canvas.Left=\"2\" Canvas.Top=\"114\" /></Canvas><Canvas Tag=\"I/O Connectors\" IsHitTestVisible=\"False\"><Canvas Tag=\"Lower\"><Rectangle Tag=\"Right\" Width=\"5\" Height=\"10\" Fill=\"#FFB6BEC6\" Canvas.Left=\"13\" Canvas.Top=\"100.0\" /><Rectangle Tag=\"Left\" Width=\"5\" Height=\"10\" Fill=\"#FFB6BEC6\" Canvas.Left=\"6\" Canvas.Top=\"100.0\" /></Canvas><Canvas Tag=\"Upper\"><Rectangle Tag=\"Right-2\" Width=\"5\" Height=\"41\" Fill=\"#FFB6BEC6\" Canvas.Left=\"13\" Canvas.Top=\"25\" /><Rectangle Tag=\"Left-2\" Width=\"5\" Height=\"41\" Fill=\"#FFB6BEC6\" Canvas.Left=\"6\" Canvas.Top=\"25\" /></Canvas></Canvas><Rectangle Tag=\"LEDs\" Width=\"6\" Height=\"15\" Fill=\"#FFB6BEC6\" Canvas.Left=\"6\" Canvas.Top=\"4\" IsHitTestVisible=\"False\" /><Rectangle Tag=\"LEDs-2\" Width=\"6\" Height=\"10\" Fill=\"#FFB6BEC6\" Canvas.Left=\"12\" Canvas.Top=\"9\" IsHitTestVisible=\"False\" /></Canvas>",
             "Product": {
-              "$ref": "228"
+              "$ref": "95"
             }
           },
           {
-            "$id": "233",
+            "$id": "100",
             "Id": "87ef8747-3b24-4351-8000-7fb85136d120",
             "Name": "CPX-E-16DI",
             "IconMarkup": "<?xml version='1.0' encoding='UTF-8'?><Canvas Tag=\"CPX-E-16DI\" Width=\"22\" Height=\"121\" xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\" xmlns:attachedProperties=\"clr-namespace:Festo.Suite.Design.AttachedProperties;assembly=Festo.Suite.Design\" VerticalAlignment=\"Top\"><Canvas Tag=\"Base\" IsHitTestVisible=\"False\"><Canvas Tag=\"Spacer\"><Rectangle Tag=\"Spacer-2\" Width=\"2\" Height=\"121\" Canvas.Left=\"0\" Canvas.Top=\"0\" /></Canvas><Rectangle Tag=\"Base-2\" Width=\"20\" Height=\"121\" Fill=\"#FFF2F3F5\" Canvas.Left=\"2\" Canvas.Top=\"0\" /><Rectangle Tag=\"Middle\" Width=\"20\" Height=\"89\" Fill=\"#FFE5E8EB\" Canvas.Left=\"2\" Canvas.Top=\"23\" /><Rectangle Tag=\"Top\" Width=\"20\" Height=\"21\" Fill=\"#FFE5E8EB\" Canvas.Left=\"2\" Canvas.Top=\"0\" /><Rectangle Tag=\"Bottom\" Width=\"20\" Height=\"7\" Fill=\"#FFE5E8EB\" Canvas.Left=\"2\" Canvas.Top=\"114\" /></Canvas><Canvas Tag=\"I/O Connectors\" IsHitTestVisible=\"False\"><Rectangle Tag=\"Right\" Width=\"5\" Height=\"85\" Fill=\"#FFB6BEC6\" Canvas.Left=\"13\" Canvas.Top=\"25\" /><Rectangle Tag=\"Left\" Width=\"5\" Height=\"85\" Fill=\"#FFB6BEC6\" Canvas.Left=\"6\" Canvas.Top=\"25\" /></Canvas><Rectangle Tag=\"LEDs\" Width=\"6\" Height=\"15\" Fill=\"#FFB6BEC6\" Canvas.Left=\"6\" Canvas.Top=\"4\" IsHitTestVisible=\"False\" /><Rectangle Tag=\"LEDs-2\" Width=\"6\" Height=\"10\" Fill=\"#FFB6BEC6\" Canvas.Left=\"12\" Canvas.Top=\"9\" IsHitTestVisible=\"False\" /></Canvas>",
             "Product": {
-              "$ref": "229"
+              "$ref": "96"
             }
           }
         ],
         "MainEngineeringComponent": {
-          "$ref": "230"
+          "$ref": "97"
         },
         "ParameterSet": [
           {
@@ -146,13 +146,13 @@
         ]
       },
       {
-        "$id": "234",
+        "$id": "101",
         "Id": "39bc7c80-b6b3-4561-bc5c-88bc871c9eec",
         "Name": "M1 - CMMT-ST-C8-1C-EC-S0",
         "ToolGuid": "dd9cd61e-7fbb-4785-87aa-0e774d93878e",
         "ImageKey": "8084005",
         "ConnectionString": {
-          "$id": "235",
+          "$id": "102",
           "Name": "Eth0",
           "Type": "IPv4",
           "Value": "192.168.23.10",
@@ -163,7 +163,7 @@
         "CatalogPath": "CMMT-ST-C8-1C-EC-S0",
         "EngineeringProductCatalog": [
           {
-            "$id": "236",
+            "$id": "103",
             "Id": "e91d2413-16c7-4376-8e05-38206712e28c",
             "IconMarkup": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n\r\n<Canvas xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\"\r\n        xmlns:attachedProperties=\"clr-namespace:Festo.Suite.Design.AttachedProperties;assembly=Festo.Suite.Design\"\r\n        Tag=\"CMMT-ST-EC\" Width=\"27\" Height=\"156\" VerticalAlignment=\"Top\">\r\n    <Canvas Tag=\"Body\" IsHitTestVisible=\"False\">\r\n        <Rectangle Tag=\"Base\" Width=\"27\" Height=\"152\" Fill=\"#FFF2F3F5\" Canvas.Left=\"0\" Canvas.Top=\"4.0\" />\r\n        <Rectangle Tag=\"Bottom\" Width=\"27\" Height=\"138\" Fill=\"#FFE5E8EB\" Canvas.Left=\"0\" Canvas.Top=\"18.0\" />\r\n        <Rectangle Tag=\"Top\" Width=\"27\" Height=\"12\" Fill=\"#FFE5E8EB\" Canvas.Left=\"0\" Canvas.Top=\"4.0\" />\r\n        <Canvas Tag=\"Festo Logo\">\r\n            <Path Tag=\"F\" Fill=\"#FF0091DC\" Canvas.Left=\"14.101\" Canvas.Top=\"20.336\">\r\n                <Path.Data>\r\n                    <PathGeometry\r\n                        Figures=\"M.069 2.45A.077.077 0 0 1 0 2.368V.082A.077.077 0 0 1 .069 0H2a.077.077 0 0 1 .069.082V.409A.076.076 0 0 1 2 .49H.621A.076.076 0 0 0 .552.572V.9A.076.076 0 0 0 .621.98H1.862a.076.076 0 0 1 .069.082v.327a.076.076 0 0 1-.069.081H.621a.077.077 0 0 0-.069.082v.816a.076.076 0 0 1-.069.082Z\" />\r\n                </Path.Data>\r\n            </Path>\r\n            <Path Tag=\"E\" Fill=\"#FF0091DC\" Canvas.Left=\"16.308\" Canvas.Top=\"20.336\">\r\n                <Path.Data>\r\n                    <PathGeometry\r\n                        Figures=\"M0 .082A.076.076 0 0 1 .069 0H2.138a.077.077 0 0 1 .069.082V.409A.076.076 0 0 1 2.138.49H.621A.076.076 0 0 0 .552.572V.9A.076.076 0 0 0 .621.98H2a.076.076 0 0 1 .069.082v.327A.076.076 0 0 1 2 1.47H.621a.076.076 0 0 0-.069.082v.326a.076.076 0 0 0 .069.082H2.138a.076.076 0 0 1 .069.082v.326a.077.077 0 0 1-.069.082H.069A.076.076 0 0 1 0 2.368Z\" />\r\n                </Path.Data>\r\n            </Path>\r\n            <Path Tag=\"S\" Fill=\"#FF0091DC\" Canvas.Left=\"18.652\" Canvas.Top=\"20.336\">\r\n                <Path.Data>\r\n                    <PathGeometry\r\n                        Figures=\"M0 .98a.456.456 0 0 0 .414.489h1.1a.152.152 0 0 1 .138.164V1.8a.152.152 0 0 1-.138.164H.62a.077.077 0 0 1-.069-.082A.076.076 0 0 0 .483 1.8H.069A.076.076 0 0 0 0 1.878V1.96a.457.457 0 0 0 .414.49H1.793a.457.457 0 0 0 .413-.49V1.47A.456.456 0 0 0 1.793.98H.69A.152.152 0 0 1 .552.817V.654A.152.152 0 0 1 .69.49h.9a.076.076 0 0 1 .069.082.076.076 0 0 0 .069.082h.414A.076.076 0 0 0 2.207.572V.49A.457.457 0 0 0 1.793 0H.414A.457.457 0 0 0 0 .49Z\" />\r\n                </Path.Data>\r\n            </Path>\r\n            <Path Tag=\"T\" Fill=\"#FF0091DC\" Canvas.Left=\"20.997\" Canvas.Top=\"20.336\">\r\n                <Path.Data>\r\n                    <PathGeometry\r\n                        Figures=\"M0 .082A.076.076 0 0 1 .07 0H2.138a.076.076 0 0 1 .069.082V.409A.076.076 0 0 1 2.138.49H1.448A.076.076 0 0 0 1.38.572v1.8a.076.076 0 0 1-.069.082H.9a.076.076 0 0 1-.069-.082V.572A.076.076 0 0 0 .759.49H.069A.076.076 0 0 1 0 .409V.082Z\" />\r\n                </Path.Data>\r\n            </Path>\r\n            <Path Tag=\"O\" Fill=\"#FF0091DC\" Canvas.Left=\"23.376\" Canvas.Top=\"20.336\">\r\n                <Path.Data>\r\n                    <PathGeometry\r\n                        Figures=\"M1.765 2.457H.407a.345.345 0 0 1-.158-.039.411.411 0 0 1-.129-.105.506.506 0 0 1-.087-.156A.577.577 0 0 1 0 1.966V.492A.577.577 0 0 1 .032.3.507.507 0 0 1 .119.144.411.411 0 0 1 .249.039.345.345 0 0 1 .407 0H1.765a.346.346 0 0 1 .159.039.41.41 0 0 1 .129.105A.506.506 0 0 1 2.14.3a.578.578 0 0 1 .032.191V1.966a.578.578 0 0 1-.032.191.505.505 0 0 1-.087.156.41.41 0 0 1-.129.105A.346.346 0 0 1 1.765 2.457ZM.679.492a.125.125 0 0 0-.1.048.181.181 0 0 0-.04.116V1.8a.182.182 0 0 0 .04.116.124.124 0 0 0 .1.048h.815a.124.124 0 0 0 .1-.048.182.182 0 0 0 .04-.116V.655a.181.181 0 0 0-.04-.116.125.125 0 0 0-.1-.048Z\" />\r\n                </Path.Data>\r\n            </Path>\r\n        </Canvas>\r\n    </Canvas>\r\n    <Canvas Tag=\"Auxiliary Interfaces\" IsHitTestVisible=\"False\">\r\n        <Rectangle Tag=\"X1C\" Width=\"6\" Height=\"12\" Fill=\"#FFB6BEC6\" Canvas.Left=\"8\" Canvas.Top=\"140\" />\r\n        <Rectangle Tag=\"X6\" Width=\"6\" Height=\"34\" Fill=\"#FFB6BEC6\" Canvas.Left=\"8\" Canvas.Top=\"104\" />\r\n        <Rectangle Tag=\"X2\" Width=\"9\" Height=\"15\" Fill=\"#FFB6BEC6\" Canvas.Left=\"8\" Canvas.Top=\"87\" />\r\n        <Rectangle Tag=\"X1A\" Width=\"9\" Height=\"19\" Fill=\"#FFB6BEC6\" Canvas.Left=\"8\" Canvas.Top=\"66\" />\r\n        <Rectangle Tag=\"X18\" Width=\"12.0\" Height=\"12.0\" Fill=\"#FFB6BEC6\" Stroke=\"#FFB6BEC6\" StrokeThickness=\"2\"\r\n                   Canvas.Left=\"8.0\" Canvas.Top=\"50.0\" />\r\n    </Canvas>\r\n    <Canvas Tag=\"Connectors\">\r\n        <Canvas Tag=\"XF2 OUT\" attachedProperties:SuiteProps.ConnectorName=\"XF2 OUT\"\r\n                attachedProperties:SuiteProps.TranslateTransformX=\"15.0\"\r\n                attachedProperties:SuiteProps.TranslateTransformY=\"4.0\"\r\n                attachedProperties:SuiteProps.ConnectorOutDirection=\"Up\" attachedProperties:SuiteProps.UIType=\"RJ45\">\r\n            <Canvas Tag=\"Up\">\r\n                <Rectangle Tag=\"RJ45\" Width=\"12.0\" Height=\"12.0\" Fill=\"#FFFFD600\" Stroke=\"#FFFFD600\"\r\n                           StrokeThickness=\"2\" Canvas.Left=\"15.0\" Canvas.Top=\"4.0\" />\r\n            </Canvas>\r\n        </Canvas>\r\n        <Canvas Tag=\"XF1 IN\" attachedProperties:SuiteProps.ConnectorName=\"XF1 IN\"\r\n                attachedProperties:SuiteProps.TranslateTransformX=\"0.0\"\r\n                attachedProperties:SuiteProps.TranslateTransformY=\"4.0\"\r\n                attachedProperties:SuiteProps.ConnectorOutDirection=\"Up\" attachedProperties:SuiteProps.UIType=\"RJ45\">\r\n            <Canvas Tag=\"Up\">\r\n                <Rectangle Tag=\"RJ45\" Width=\"12.0\" Height=\"12.0\" Fill=\"#FFFFD600\" Stroke=\"#FFFFD600\"\r\n                           StrokeThickness=\"2\" Canvas.Left=\"0.0\" Canvas.Top=\"4.0\" />\r\n            </Canvas>\r\n        </Canvas>\r\n    </Canvas>\r\n    <Rectangle Tag=\"StatusIconPlaceholder\" Width=\"16\" Height=\"16\" Canvas.Left=\"2\" Canvas.Top=\"20\"\r\n               IsHitTestVisible=\"False\" attachedProperties:SuiteProps.TranslateTransformX=\"2\"\r\n               attachedProperties:SuiteProps.TranslateTransformY=\"20\"\r\n               attachedProperties:SuiteProps.IsStatusIconPlaceHolder=\"True\" />\r\n    <Rectangle Tag=\"CodesysFieldbusSlaveStatusIconPlaceHolder\" Width=\"20\" Height=\"20\" Canvas.Left=\"4\" Canvas.Top=\"0\"\r\n               IsHitTestVisible=\"False\" attachedProperties:SuiteProps.TranslateTransformX=\"4\"\r\n               attachedProperties:SuiteProps.TranslateTransformY=\"0\"\r\n               attachedProperties:SuiteProps.IsCodesysFieldbusSlaveStatusIconPlaceHolder=\"True\" />\r\n</Canvas>",
             "Vendor": "Festo",
@@ -171,7 +171,7 @@
             "PartNumber": "8084005",
             "Connectors": [
               {
-                "$id": "237",
+                "$id": "104",
                 "Id": "13573387-17da-42f0-b08a-5b8450cac884",
                 "Name": "XF1 IN",
                 "Role": "In",
@@ -185,7 +185,7 @@
                 ]
               },
               {
-                "$id": "238",
+                "$id": "105",
                 "Id": "b22ebb6d-bde2-4ef9-819b-3fb5871162e2",
                 "Name": "XF2 OUT",
                 "Role": "Out",
@@ -195,13 +195,13 @@
             ],
             "Connections": [
               {
-                "$id": "239",
+                "$id": "106",
                 "Id": "dcbe5b06-8e46-4324-8d29-39740f2bd664",
                 "SourceConnector": {
-                  "$ref": "237"
+                  "$ref": "104"
                 },
                 "TargetConnector": {
-                  "$ref": "238"
+                  "$ref": "105"
                 }
               }
             ],
@@ -213,171 +213,171 @@
             ]
           },
           {
-            "$id": "240",
+            "$id": "107",
             "Id": "a76f06d8-3277-493b-9e8f-98351e1e0216",
             "Name": "EMMS-ST-42-S-SE-G2",
             "PartNumber": "1370471"
           },
           {
-            "$id": "241",
+            "$id": "108",
             "Id": "ce1e4eaa-4a08-48ff-a480-288d0ea951a9",
             "Name": "EMMS-ST-42-S-SE-G2",
             "PartNumber": "1370471"
           },
           {
-            "$id": "242",
+            "$id": "109",
             "Id": "5eb62b9b-54ba-440a-a3bb-1e806143c4e6",
             "Name": "EMMS-ST-42-S-SE-G2",
             "PartNumber": "1370471"
           },
           {
-            "$id": "243",
+            "$id": "110",
             "Id": "dfb75fd1-a3ee-4c41-8b6b-6775175f275b",
             "Name": "User defined linear axis"
           },
           {
-            "$id": "244",
+            "$id": "111",
             "Id": "1277e66d-3104-4ad8-ae0f-442579cdef5c",
             "Name": "EMMS-ST-42-S-SE-G2",
             "PartNumber": "1370471"
           },
           {
-            "$id": "245",
+            "$id": "112",
             "Id": "3016855b-9130-417d-a59a-d00fafff68b8",
             "Name": "User defined linear axis"
           },
           {
-            "$id": "246",
+            "$id": "113",
             "Id": "1ed37ecf-8a7d-40d3-aeb8-e87106cfdf0e",
             "Name": "EMMS-ST-42-S-SE-G2",
             "PartNumber": "1370471"
           },
           {
-            "$id": "247",
+            "$id": "114",
             "Id": "f87a691c-612d-4e4c-8447-e7265e065b36",
             "Name": "User defined linear axis"
           },
           {
-            "$id": "248",
+            "$id": "115",
             "Id": "22809207-c30a-4ad8-9a81-d29517f67d1e",
             "Name": "User Defined Mounting Kit",
             "PartNumber": ""
           },
           {
-            "$id": "249",
+            "$id": "116",
             "Id": "7108c1b5-6475-4d25-884f-a55acb54b7f9",
             "Name": "EMMS-ST-42-S-SE-G2",
             "PartNumber": "1370471"
           },
           {
-            "$id": "250",
+            "$id": "117",
             "Id": "77bf1795-54e8-4e2a-998e-d23f26b8afc3",
             "Name": "User defined linear axis"
           },
           {
-            "$id": "251",
+            "$id": "118",
             "Id": "689f1a98-b337-41c2-b569-27ad29356b18",
             "Name": "User Defined Mounting Kit",
             "PartNumber": ""
           },
           {
-            "$id": "252",
+            "$id": "119",
             "Id": "ff3085f4-2e9b-4858-897a-9a7302cbab56",
             "Name": "EMMS-ST-42-S-SE-G2",
             "PartNumber": "1370471"
           },
           {
-            "$id": "253",
+            "$id": "120",
             "Id": "07e3a437-8c18-475b-bd0d-9dcbe43f1ddf",
             "Name": "User defined linear axis"
           },
           {
-            "$id": "254",
+            "$id": "121",
             "Id": "8112db40-e92f-4cf6-b998-444f63e7e533",
             "Name": "User Defined Mounting Kit",
             "PartNumber": ""
           },
           {
-            "$id": "255",
+            "$id": "122",
             "Id": "adb47d8d-ae1d-488d-b91f-f24f4659b052",
             "Name": "EMMS-ST-42-S-SE-G2",
             "PartNumber": "1370471"
           },
           {
-            "$id": "256",
+            "$id": "123",
             "Id": "b7d07a79-f959-42ba-8e43-a08433e40203",
             "Name": "User defined linear axis"
           },
           {
-            "$id": "257",
+            "$id": "124",
             "Id": "3f9dd22a-071d-47f0-8733-6019cdc19b41",
             "Name": "User Defined Mounting Kit",
             "PartNumber": ""
           },
           {
-            "$id": "258",
+            "$id": "125",
             "Id": "e4c85171-3809-4b35-9652-d3d87c9edeaf",
             "Name": "EMMS-ST-42-S-SE-G2",
             "PartNumber": "1370471"
           },
           {
-            "$id": "259",
+            "$id": "126",
             "Id": "114d2de1-926f-4d96-b3dd-57624ed79303",
             "Name": "User defined linear axis"
           },
           {
-            "$id": "260",
+            "$id": "127",
             "Id": "fdc97b10-b203-413b-82d6-17b1e52acd8a",
             "Name": "User Defined Mounting Kit",
             "PartNumber": ""
           },
           {
-            "$id": "261",
+            "$id": "128",
             "Id": "b533c441-f129-4b58-89ab-05982022b798",
             "Name": "EMMS-ST-42-S-SE-G2",
             "PartNumber": "1370471"
           },
           {
-            "$id": "262",
+            "$id": "129",
             "Id": "64e78d22-4ba6-4649-a8bd-5a2c36ca3dd5",
             "Name": "User defined linear axis"
           },
           {
-            "$id": "263",
+            "$id": "130",
             "Id": "e83d76ca-4e47-4313-87f4-eddff6b47e16",
             "Name": "User Defined Mounting Kit",
             "PartNumber": ""
           },
           {
-            "$id": "264",
+            "$id": "131",
             "Id": "aa11a465-e6e7-4a29-814a-1a37551525cf",
             "Name": "EMMS-ST-42-S-SE-G2",
             "PartNumber": "1370471"
           },
           {
-            "$id": "265",
+            "$id": "132",
             "Id": "a1645f21-4fab-4824-be80-32240112fcd1",
             "Name": "User defined linear axis"
           },
           {
-            "$id": "266",
+            "$id": "133",
             "Id": "3cdb3e8a-ab56-4e98-89fb-9a062b046b77",
             "Name": "User Defined Mounting Kit",
             "PartNumber": ""
           },
           {
-            "$id": "267",
+            "$id": "134",
             "Id": "11a30831-30b5-4608-aff5-8ceeca92699f",
             "Name": "EMMS-ST-42-S-SE-G2",
             "PartNumber": "1370471"
           },
           {
-            "$id": "268",
+            "$id": "135",
             "Id": "c74953c3-988b-4222-bb42-888dda45a542",
             "Name": "User defined linear axis"
           },
           {
-            "$id": "269",
+            "$id": "136",
             "Id": "0631bb5e-97fe-4f62-90bb-9137466076de",
             "Name": "User Defined Mounting Kit",
             "PartNumber": ""
@@ -385,15 +385,15 @@
         ],
         "EngineeringComponents": [
           {
-            "$id": "270",
+            "$id": "137",
             "Id": "5e99e944-838f-42cd-a06e-fd600dcb29bf",
             "Name": "CMMT-ST-C8-1C-EC-S0",
             "Product": {
-              "$ref": "236"
+              "$ref": "103"
             },
             "Connectors": [
               {
-                "$id": "271",
+                "$id": "138",
                 "Id": "103e6bbc-3fa1-4c9a-89f5-3861bee61b74",
                 "Name": "XF1 IN",
                 "Role": "In",
@@ -405,10 +405,6 @@
                     "Value": "65;1D_007B5A250000000A_PTP;3.5.16.50"
                   },
                   {
-                    "Name": "CodesysDeviceAccessRight",
-                    "Value": "Write"
-                  },
-                  {
                     "$valuetype": "System.Guid",
                     "Name": "CodesysDeviceObjectId",
                     "Value": "261753ba-4632-4e31-b15f-b4476357e6b3"
@@ -416,7 +412,7 @@
                 ]
               },
               {
-                "$id": "272",
+                "$id": "139",
                 "Id": "a3f23b81-ebc2-4bff-a7c6-19fc7fadbfa5",
                 "Name": "XF2 OUT",
                 "Role": "Out",
@@ -426,13 +422,13 @@
             ],
             "Connections": [
               {
-                "$id": "273",
+                "$id": "140",
                 "Id": "2ad5b027-0b05-4076-b924-4ab054d5a02d",
                 "SourceConnector": {
-                  "$ref": "271"
+                  "$ref": "138"
                 },
                 "TargetConnector": {
-                  "$ref": "272"
+                  "$ref": "139"
                 }
               }
             ],
@@ -444,11 +440,11 @@
             ]
           },
           {
-            "$id": "274",
+            "$id": "141",
             "Id": "2fd70a84-9b52-4751-ae17-87cef3074140",
             "Name": "EMMS-ST-42-S-SE-G2",
             "Product": {
-              "$ref": "267"
+              "$ref": "134"
             },
             "ParameterSet": [
               {
@@ -458,11 +454,11 @@
             ]
           },
           {
-            "$id": "275",
+            "$id": "142",
             "Id": "09f42790-0430-43b0-a18f-fabc8c26f144",
             "Name": "User defined linear axis",
             "Product": {
-              "$ref": "268"
+              "$ref": "135"
             },
             "ParameterSet": [
               {
@@ -472,11 +468,11 @@
             ]
           },
           {
-            "$id": "276",
+            "$id": "143",
             "Id": "e1545ed6-0b5a-4d40-a3c7-8bb58f9666a6",
             "Name": "User Defined Mounting Kit",
             "Product": {
-              "$ref": "269"
+              "$ref": "136"
             },
             "ParameterSet": [
               {
@@ -487,18 +483,17 @@
           }
         ],
         "MainEngineeringComponent": {
-          "$ref": "270"
-        },
-        "ParameterSet": []
+          "$ref": "137"
+        }
       },
       {
-        "$id": "277",
+        "$id": "144",
         "Id": "f1113d49-0ad5-457c-8d50-c66c2a301380",
         "Name": "M2 - CMMT-ST-C8-1C-EC-S0",
         "ToolGuid": "dd9cd61e-7fbb-4785-87aa-0e774d93878e",
         "ImageKey": "8084005",
         "ConnectionString": {
-          "$id": "278",
+          "$id": "145",
           "Name": "Eth0",
           "Type": "IPv4",
           "Value": "192.168.23.29",
@@ -509,7 +504,7 @@
         "CatalogPath": "CMMT-ST-C8-1C-EC-S0",
         "EngineeringProductCatalog": [
           {
-            "$id": "279",
+            "$id": "146",
             "Id": "7af18f92-551a-4bf9-b84f-4656f0496573",
             "IconMarkup": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n\r\n<Canvas xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\"\r\n        xmlns:attachedProperties=\"clr-namespace:Festo.Suite.Design.AttachedProperties;assembly=Festo.Suite.Design\"\r\n        Tag=\"CMMT-ST-EC\" Width=\"27\" Height=\"156\" VerticalAlignment=\"Top\">\r\n    <Canvas Tag=\"Body\" IsHitTestVisible=\"False\">\r\n        <Rectangle Tag=\"Base\" Width=\"27\" Height=\"152\" Fill=\"#FFF2F3F5\" Canvas.Left=\"0\" Canvas.Top=\"4.0\" />\r\n        <Rectangle Tag=\"Bottom\" Width=\"27\" Height=\"138\" Fill=\"#FFE5E8EB\" Canvas.Left=\"0\" Canvas.Top=\"18.0\" />\r\n        <Rectangle Tag=\"Top\" Width=\"27\" Height=\"12\" Fill=\"#FFE5E8EB\" Canvas.Left=\"0\" Canvas.Top=\"4.0\" />\r\n        <Canvas Tag=\"Festo Logo\">\r\n            <Path Tag=\"F\" Fill=\"#FF0091DC\" Canvas.Left=\"14.101\" Canvas.Top=\"20.336\">\r\n                <Path.Data>\r\n                    <PathGeometry\r\n                        Figures=\"M.069 2.45A.077.077 0 0 1 0 2.368V.082A.077.077 0 0 1 .069 0H2a.077.077 0 0 1 .069.082V.409A.076.076 0 0 1 2 .49H.621A.076.076 0 0 0 .552.572V.9A.076.076 0 0 0 .621.98H1.862a.076.076 0 0 1 .069.082v.327a.076.076 0 0 1-.069.081H.621a.077.077 0 0 0-.069.082v.816a.076.076 0 0 1-.069.082Z\" />\r\n                </Path.Data>\r\n            </Path>\r\n            <Path Tag=\"E\" Fill=\"#FF0091DC\" Canvas.Left=\"16.308\" Canvas.Top=\"20.336\">\r\n                <Path.Data>\r\n                    <PathGeometry\r\n                        Figures=\"M0 .082A.076.076 0 0 1 .069 0H2.138a.077.077 0 0 1 .069.082V.409A.076.076 0 0 1 2.138.49H.621A.076.076 0 0 0 .552.572V.9A.076.076 0 0 0 .621.98H2a.076.076 0 0 1 .069.082v.327A.076.076 0 0 1 2 1.47H.621a.076.076 0 0 0-.069.082v.326a.076.076 0 0 0 .069.082H2.138a.076.076 0 0 1 .069.082v.326a.077.077 0 0 1-.069.082H.069A.076.076 0 0 1 0 2.368Z\" />\r\n                </Path.Data>\r\n            </Path>\r\n            <Path Tag=\"S\" Fill=\"#FF0091DC\" Canvas.Left=\"18.652\" Canvas.Top=\"20.336\">\r\n                <Path.Data>\r\n                    <PathGeometry\r\n                        Figures=\"M0 .98a.456.456 0 0 0 .414.489h1.1a.152.152 0 0 1 .138.164V1.8a.152.152 0 0 1-.138.164H.62a.077.077 0 0 1-.069-.082A.076.076 0 0 0 .483 1.8H.069A.076.076 0 0 0 0 1.878V1.96a.457.457 0 0 0 .414.49H1.793a.457.457 0 0 0 .413-.49V1.47A.456.456 0 0 0 1.793.98H.69A.152.152 0 0 1 .552.817V.654A.152.152 0 0 1 .69.49h.9a.076.076 0 0 1 .069.082.076.076 0 0 0 .069.082h.414A.076.076 0 0 0 2.207.572V.49A.457.457 0 0 0 1.793 0H.414A.457.457 0 0 0 0 .49Z\" />\r\n                </Path.Data>\r\n            </Path>\r\n            <Path Tag=\"T\" Fill=\"#FF0091DC\" Canvas.Left=\"20.997\" Canvas.Top=\"20.336\">\r\n                <Path.Data>\r\n                    <PathGeometry\r\n                        Figures=\"M0 .082A.076.076 0 0 1 .07 0H2.138a.076.076 0 0 1 .069.082V.409A.076.076 0 0 1 2.138.49H1.448A.076.076 0 0 0 1.38.572v1.8a.076.076 0 0 1-.069.082H.9a.076.076 0 0 1-.069-.082V.572A.076.076 0 0 0 .759.49H.069A.076.076 0 0 1 0 .409V.082Z\" />\r\n                </Path.Data>\r\n            </Path>\r\n            <Path Tag=\"O\" Fill=\"#FF0091DC\" Canvas.Left=\"23.376\" Canvas.Top=\"20.336\">\r\n                <Path.Data>\r\n                    <PathGeometry\r\n                        Figures=\"M1.765 2.457H.407a.345.345 0 0 1-.158-.039.411.411 0 0 1-.129-.105.506.506 0 0 1-.087-.156A.577.577 0 0 1 0 1.966V.492A.577.577 0 0 1 .032.3.507.507 0 0 1 .119.144.411.411 0 0 1 .249.039.345.345 0 0 1 .407 0H1.765a.346.346 0 0 1 .159.039.41.41 0 0 1 .129.105A.506.506 0 0 1 2.14.3a.578.578 0 0 1 .032.191V1.966a.578.578 0 0 1-.032.191.505.505 0 0 1-.087.156.41.41 0 0 1-.129.105A.346.346 0 0 1 1.765 2.457ZM.679.492a.125.125 0 0 0-.1.048.181.181 0 0 0-.04.116V1.8a.182.182 0 0 0 .04.116.124.124 0 0 0 .1.048h.815a.124.124 0 0 0 .1-.048.182.182 0 0 0 .04-.116V.655a.181.181 0 0 0-.04-.116.125.125 0 0 0-.1-.048Z\" />\r\n                </Path.Data>\r\n            </Path>\r\n        </Canvas>\r\n    </Canvas>\r\n    <Canvas Tag=\"Auxiliary Interfaces\" IsHitTestVisible=\"False\">\r\n        <Rectangle Tag=\"X1C\" Width=\"6\" Height=\"12\" Fill=\"#FFB6BEC6\" Canvas.Left=\"8\" Canvas.Top=\"140\" />\r\n        <Rectangle Tag=\"X6\" Width=\"6\" Height=\"34\" Fill=\"#FFB6BEC6\" Canvas.Left=\"8\" Canvas.Top=\"104\" />\r\n        <Rectangle Tag=\"X2\" Width=\"9\" Height=\"15\" Fill=\"#FFB6BEC6\" Canvas.Left=\"8\" Canvas.Top=\"87\" />\r\n        <Rectangle Tag=\"X1A\" Width=\"9\" Height=\"19\" Fill=\"#FFB6BEC6\" Canvas.Left=\"8\" Canvas.Top=\"66\" />\r\n        <Rectangle Tag=\"X18\" Width=\"12.0\" Height=\"12.0\" Fill=\"#FFB6BEC6\" Stroke=\"#FFB6BEC6\" StrokeThickness=\"2\"\r\n                   Canvas.Left=\"8.0\" Canvas.Top=\"50.0\" />\r\n    </Canvas>\r\n    <Canvas Tag=\"Connectors\">\r\n        <Canvas Tag=\"XF2 OUT\" attachedProperties:SuiteProps.ConnectorName=\"XF2 OUT\"\r\n                attachedProperties:SuiteProps.TranslateTransformX=\"15.0\"\r\n                attachedProperties:SuiteProps.TranslateTransformY=\"4.0\"\r\n                attachedProperties:SuiteProps.ConnectorOutDirection=\"Up\" attachedProperties:SuiteProps.UIType=\"RJ45\">\r\n            <Canvas Tag=\"Up\">\r\n                <Rectangle Tag=\"RJ45\" Width=\"12.0\" Height=\"12.0\" Fill=\"#FFFFD600\" Stroke=\"#FFFFD600\"\r\n                           StrokeThickness=\"2\" Canvas.Left=\"15.0\" Canvas.Top=\"4.0\" />\r\n            </Canvas>\r\n        </Canvas>\r\n        <Canvas Tag=\"XF1 IN\" attachedProperties:SuiteProps.ConnectorName=\"XF1 IN\"\r\n                attachedProperties:SuiteProps.TranslateTransformX=\"0.0\"\r\n                attachedProperties:SuiteProps.TranslateTransformY=\"4.0\"\r\n                attachedProperties:SuiteProps.ConnectorOutDirection=\"Up\" attachedProperties:SuiteProps.UIType=\"RJ45\">\r\n            <Canvas Tag=\"Up\">\r\n                <Rectangle Tag=\"RJ45\" Width=\"12.0\" Height=\"12.0\" Fill=\"#FFFFD600\" Stroke=\"#FFFFD600\"\r\n                           StrokeThickness=\"2\" Canvas.Left=\"0.0\" Canvas.Top=\"4.0\" />\r\n            </Canvas>\r\n        </Canvas>\r\n    </Canvas>\r\n    <Rectangle Tag=\"StatusIconPlaceholder\" Width=\"16\" Height=\"16\" Canvas.Left=\"2\" Canvas.Top=\"20\"\r\n               IsHitTestVisible=\"False\" attachedProperties:SuiteProps.TranslateTransformX=\"2\"\r\n               attachedProperties:SuiteProps.TranslateTransformY=\"20\"\r\n               attachedProperties:SuiteProps.IsStatusIconPlaceHolder=\"True\" />\r\n    <Rectangle Tag=\"CodesysFieldbusSlaveStatusIconPlaceHolder\" Width=\"20\" Height=\"20\" Canvas.Left=\"4\" Canvas.Top=\"0\"\r\n               IsHitTestVisible=\"False\" attachedProperties:SuiteProps.TranslateTransformX=\"4\"\r\n               attachedProperties:SuiteProps.TranslateTransformY=\"0\"\r\n               attachedProperties:SuiteProps.IsCodesysFieldbusSlaveStatusIconPlaceHolder=\"True\" />\r\n</Canvas>",
             "Vendor": "Festo",
@@ -517,7 +512,7 @@
             "PartNumber": "8084005",
             "Connectors": [
               {
-                "$id": "280",
+                "$id": "147",
                 "Id": "13573387-17da-42f0-b08a-5b8450cac884",
                 "Name": "XF1 IN",
                 "Role": "In",
@@ -531,7 +526,7 @@
                 ]
               },
               {
-                "$id": "281",
+                "$id": "148",
                 "Id": "b22ebb6d-bde2-4ef9-819b-3fb5871162e2",
                 "Name": "XF2 OUT",
                 "Role": "Out",
@@ -541,13 +536,13 @@
             ],
             "Connections": [
               {
-                "$id": "282",
+                "$id": "149",
                 "Id": "a7764c66-de36-4ce3-b1c1-a21f8ac29299",
                 "SourceConnector": {
-                  "$ref": "280"
+                  "$ref": "147"
                 },
                 "TargetConnector": {
-                  "$ref": "281"
+                  "$ref": "148"
                 }
               }
             ],
@@ -559,103 +554,103 @@
             ]
           },
           {
-            "$id": "283",
+            "$id": "150",
             "Id": "6d849781-65be-4a3b-964b-8a62a9d16261",
             "Name": "EMMS-ST-87-M-SE-G2",
             "PartNumber": "1370487"
           },
           {
-            "$id": "284",
+            "$id": "151",
             "Id": "176523de-f1d7-473d-a777-270f294df14b",
             "Name": "User defined linear axis"
           },
           {
-            "$id": "285",
+            "$id": "152",
             "Id": "5c67cc99-b6cc-47c1-ab4d-0fecb74ff0b1",
             "Name": "User Defined Mounting Kit",
             "PartNumber": ""
           },
           {
-            "$id": "286",
+            "$id": "153",
             "Id": "ddc64c67-cc07-48e7-821c-826d1b19d4dc",
             "Name": "EMMS-ST-87-M-SE-G2",
             "PartNumber": "1370487"
           },
           {
-            "$id": "287",
+            "$id": "154",
             "Id": "3e3cb55a-c0d5-4606-9446-7e87db7f9d5b",
             "Name": "User defined linear axis"
           },
           {
-            "$id": "288",
+            "$id": "155",
             "Id": "997503d7-ffce-4cd0-9165-6251bb235df6",
             "Name": "User Defined Mounting Kit",
             "PartNumber": ""
           },
           {
-            "$id": "289",
+            "$id": "156",
             "Id": "9564afd0-bf45-4a99-8ac2-44cafa647043",
             "Name": "EMMS-ST-87-M-SE-G2",
             "PartNumber": "1370487"
           },
           {
-            "$id": "290",
+            "$id": "157",
             "Id": "83d5280e-543e-418a-aac8-b039386f6af2",
             "Name": "User defined linear axis"
           },
           {
-            "$id": "291",
+            "$id": "158",
             "Id": "c00ec565-767d-40c4-b4c1-96fa9e71c466",
             "Name": "User Defined Mounting Kit",
             "PartNumber": ""
           },
           {
-            "$id": "292",
+            "$id": "159",
             "Id": "787864ef-05e6-45f6-aeb1-d221aee63250",
             "Name": "EMMS-ST-87-M-SE-G2",
             "PartNumber": "1370487"
           },
           {
-            "$id": "293",
+            "$id": "160",
             "Id": "089c8438-160a-4f6c-91d3-6e66bdfeb5b7",
             "Name": "User defined linear axis"
           },
           {
-            "$id": "294",
+            "$id": "161",
             "Id": "80960e47-372b-4c6d-b74e-a9367b9d38b8",
             "Name": "User Defined Mounting Kit",
             "PartNumber": ""
           },
           {
-            "$id": "295",
+            "$id": "162",
             "Id": "0a26efca-2950-4014-8232-c9c43419d5e1",
             "Name": "EMMS-ST-87-M-SE-G2",
             "PartNumber": "1370487"
           },
           {
-            "$id": "296",
+            "$id": "163",
             "Id": "3751f935-9f51-4307-afbd-35e438ef63f7",
             "Name": "User defined linear axis"
           },
           {
-            "$id": "297",
+            "$id": "164",
             "Id": "4a254fff-1b41-43e6-83c9-6a476ccf2099",
             "Name": "User Defined Mounting Kit",
             "PartNumber": ""
           },
           {
-            "$id": "298",
+            "$id": "165",
             "Id": "84384fa1-05eb-45fa-ad80-224064ff95f1",
             "Name": "EMMS-ST-87-M-SE-G2",
             "PartNumber": "1370487"
           },
           {
-            "$id": "299",
+            "$id": "166",
             "Id": "66e36f15-f2d0-45de-b39a-54c17e7b5928",
             "Name": "User defined linear axis"
           },
           {
-            "$id": "300",
+            "$id": "167",
             "Id": "a045d5d4-494a-4f62-acfe-a7d6c48710d6",
             "Name": "User Defined Mounting Kit",
             "PartNumber": ""
@@ -663,15 +658,15 @@
         ],
         "EngineeringComponents": [
           {
-            "$id": "301",
+            "$id": "168",
             "Id": "ad0b56fb-1a43-4068-877b-c077912e9795",
             "Name": "CMMT-ST-C8-1C-EC-S0",
             "Product": {
-              "$ref": "279"
+              "$ref": "146"
             },
             "Connectors": [
               {
-                "$id": "302",
+                "$id": "169",
                 "Id": "292f5315-6e86-44e9-841a-b739c27cf538",
                 "Name": "XF1 IN",
                 "Role": "In",
@@ -690,7 +685,7 @@
                 ]
               },
               {
-                "$id": "303",
+                "$id": "170",
                 "Id": "8e65a326-5426-48b0-a2b3-68ed4b470552",
                 "Name": "XF2 OUT",
                 "Role": "Out",
@@ -700,13 +695,13 @@
             ],
             "Connections": [
               {
-                "$id": "304",
+                "$id": "171",
                 "Id": "d2347a72-0124-477c-8c7c-5fbc619db465",
                 "SourceConnector": {
-                  "$ref": "302"
+                  "$ref": "169"
                 },
                 "TargetConnector": {
-                  "$ref": "303"
+                  "$ref": "170"
                 }
               }
             ],
@@ -718,11 +713,11 @@
             ]
           },
           {
-            "$id": "305",
+            "$id": "172",
             "Id": "8a34ce90-e51f-4f18-b3b2-a9f91757454a",
             "Name": "EMMS-ST-87-M-SE-G2",
             "Product": {
-              "$ref": "298"
+              "$ref": "165"
             },
             "ParameterSet": [
               {
@@ -732,11 +727,11 @@
             ]
           },
           {
-            "$id": "306",
+            "$id": "173",
             "Id": "b25345c6-f59b-4e69-bc0f-6e0e93f6d461",
             "Name": "User defined linear axis",
             "Product": {
-              "$ref": "299"
+              "$ref": "166"
             },
             "ParameterSet": [
               {
@@ -746,11 +741,11 @@
             ]
           },
           {
-            "$id": "307",
+            "$id": "174",
             "Id": "223de392-83e8-4233-8ca0-ab4f2c43dec9",
             "Name": "User Defined Mounting Kit",
             "Product": {
-              "$ref": "300"
+              "$ref": "167"
             },
             "ParameterSet": [
               {
@@ -761,30 +756,29 @@
           }
         ],
         "MainEngineeringComponent": {
-          "$ref": "301"
-        },
-        "ParameterSet": []
+          "$ref": "168"
+        }
       }
     ],
     "Connections": [
       {
-        "$id": "308",
+        "$id": "175",
         "Id": "a5af6254-7aa9-4024-a93f-8bb273470b9d",
         "SourceConnector": {
-          "$ref": "231"
+          "$ref": "98"
         },
         "TargetConnector": {
-          "$ref": "271"
+          "$ref": "138"
         }
       },
       {
-        "$id": "309",
+        "$id": "176",
         "Id": "02715b13-2aca-4f4a-ab20-e47c169cde42",
         "SourceConnector": {
-          "$ref": "272"
+          "$ref": "139"
         },
         "TargetConnector": {
-          "$ref": "302"
+          "$ref": "169"
         }
       }
     ]
